@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11E7D89B-C65F-4755-B67B-2016BE057D13}</ProjectGuid>
+    <ProjectGuid>{EE7868DE-E17A-4400-A0B1-59C0A6151C37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex02_Basic</RootNamespace>
-    <AssemblyName>Ex02_Basic</AssemblyName>
+    <RootNamespace>Ex12_class</RootNamespace>
+    <AssemblyName>Ex12_class</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EmpLib">
-      <HintPath>..\..\..\..\..\..\..\Ecount\Labs\BasicFrameWork\Firstln\EmpLib\bin\Debug\EmpLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
