@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EmpLib;
+using Ex03_EmpLib;
 
 namespace Ex02_Basic
 {

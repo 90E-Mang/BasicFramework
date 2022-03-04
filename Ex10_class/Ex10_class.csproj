@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C20C1D0F-EEFD-4933-937D-DE4DD3E2358F}</ProjectGuid>
+    <ProjectGuid>{A3156763-2360-4B2F-BAC9-7E4AD5FBBDAC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex19_CallByVal_callByRef</RootNamespace>
-    <AssemblyName>Ex19_CallByVal_callByRef</AssemblyName>
+    <RootNamespace>Ex10_class</RootNamespace>
+    <AssemblyName>Ex10_class</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

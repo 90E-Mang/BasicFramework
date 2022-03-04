@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11E7D89B-C65F-4755-B67B-2016BE057D13}</ProjectGuid>
+    <ProjectGuid>{50CE71FB-1480-4E48-B28B-3A467C2091A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex02_Basic</RootNamespace>
-    <AssemblyName>Ex02_Basic</AssemblyName>
+    <RootNamespace>Homework_220302</RootNamespace>
+    <AssemblyName>Homework_220302</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ex03_EmpLib">
-      <HintPath>..\Ex03_EmpLib\bin\Debug\Ex03_EmpLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
