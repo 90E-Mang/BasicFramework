@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{86D79B5A-7C1A-4C71-9D57-A35C904FAACE}</ProjectGuid>
+    <ProjectGuid>{4A05BA04-04E2-4E6A-B93D-E973DC8958D8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex17_constructor_static</RootNamespace>
-    <AssemblyName>Ex17_constructor_static</AssemblyName>
+    <RootNamespace>Ex11_class_method</RootNamespace>
+    <AssemblyName>Ex11_class_method</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
