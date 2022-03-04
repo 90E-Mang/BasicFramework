@@ -25,6 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex15_Static_scope", "Ex15_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex16_Constructor", "Ex16_Constructor\Ex16_Constructor.csproj", "{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex06_Opr", "Ex06_Opr\Ex06_Opr.csproj", "{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex07_Statement", "Ex07_Statement\Ex07_Statement.csproj", "{30A56A78-A141-4CB3-AD43-6DE220A71036}"
@@ -47,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex22_Array_Quiz", "Ex22_Arr
 =======
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 EndProject
+=======
+>>>>>>> parent of 4d5c10e (220303 수업 커밋)
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +100,7 @@ Global
 		{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -135,6 +139,8 @@ Global
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 =======
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
+=======
+>>>>>>> parent of 4d5c10e (220303 수업 커밋)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
