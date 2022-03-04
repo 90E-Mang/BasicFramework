@@ -56,6 +56,70 @@ namespace Ex20_Array
             }
 
             string[] strarr = {"이맹기","임현기","백신맞음","잠온다" };
+
+            int[] varray = new int[] {12,56,45,90,56,10 };
+            Console.WriteLine("인덱스 값 : {0}", Array.IndexOf(varray, 45));
+            Console.WriteLine("인덱스 값 : {0}", Array.LastIndexOf(varray,56));
+
+            Array.Sort(varray);     // 초급자는 쓰지말것. 알고리즘 공부 존나하고 쓰자 과제할때 쓰면 0점...
+            Console.WriteLine("자동 정렬 Asc");
+            for (int i = 0; i < varray.Length; i++)
+            {
+                Console.WriteLine($"varray : {i},{varray[i]}");
+            }
+            Console.WriteLine("자동 정렬 Desc >> 선행 >> sort");
+            Array.Reverse(varray);
+            for (int i = 0; i < varray.Length; i++)
+            {
+                Console.WriteLine($"varray : {i},{varray[i]}");
+            }
+
+            // 정렬코드는 직접 구현(swap 방식, bubble sort)
+            Console.WriteLine("clear");
+            Array.Clear(varray, 2, 3);          // [2][3][4] 값을 0으로 초기화
+            for (int i = 0; i < varray.Length; i++)
+            {
+                Console.WriteLine($"varray : {i},{varray[i]}");
+            }
+
+            int[] a = new int[] {45,12,88,97,10};
+            int[] b = new int[5];   // 방 5개 >> default 값 0이 들어있음.
+
+            Array.Copy(a, b, 3);
+            foreach (int temp in b)
+            {
+                Console.WriteLine($"b[{temp}]");
+            }
+
+            // 2차원 배열
+            // 행, 열
+            int[,] arr5 = new int[3,2];
+            arr5[0, 0] = 100;
+            Console.WriteLine($"arr5 : {arr5[0,0]}");
+
+            int[,] arr6 = new int[3, 2] { {1,2},{3,4},{5,6} };  // 2차원 배열 초기화
+            // 출력하려면?
+            // ㄴ 행을 고정하고 열을 바꿔서 출력
+            // 아래는 개 무식한 하드코딩식 출력
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.WriteLine($"arr6[{i},{j}] = {arr6[i,j]}");
+                }
+            }
+            // 행의 갯수와 열의 갯수를 이렇게 뽑아서 쓰자
+            Console.WriteLine($"행의 수 : {arr6.GetLength(0)}");
+            Console.WriteLine($"열의 수 : {arr6.GetLength(1)}");
+            for (int i = 0; i < arr6.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr6.GetLength(1); j++)
+                {
+                    Console.WriteLine($"arr6[{i},{j}] = {arr6[i, j]}");
+                }
+            }
+
+            // 좌석배치(영화관), 경도위도 값, 바둑판, ....
         }
     }
 }
