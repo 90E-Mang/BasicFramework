@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ex03_EmpLib">
-      <HintPath>..\Ex03_EmpLib\bin\Debug\Ex03_EmpLib.dll</HintPath>
+    <Reference Include="EmpLib">
+      <HintPath>..\..\..\..\..\..\..\Ecount\Labs\BasicFrameWork\Firstln\EmpLib\bin\Debug\EmpLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

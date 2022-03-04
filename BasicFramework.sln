@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex01_Basic", "Ex01_Basic\Ex01_Basic.csproj", "{151DC610-AF0E-4F26-AFD3-7661856A49BB}"
 EndProject
@@ -25,10 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex15_Static_scope", "Ex15_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex16_Constructor", "Ex16_Constructor\Ex16_Constructor.csproj", "{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex06_Opr", "Ex06_Opr\Ex06_Opr.csproj", "{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex17_constructor_static", "Ex17_constructor_static\Ex17_constructor_static.csproj", "{86D79B5A-7C1A-4C71-9D57-A35C904FAACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex07_Statement", "Ex07_Statement\Ex07_Statement.csproj", "{30A56A78-A141-4CB3-AD43-6DE220A71036}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex18_Const_Readonly", "Ex18_Const_Readonly\Ex18_Const_Readonly.csproj", "{9CB72DFE-0412-4B36-8C6C-8F1A61F0DD1F}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex08_Statement2", "Ex08_Statement2\Ex08_Statement2.csproj", "{B6790629-F5D0-4C18-84A1-97D0EDE5C937}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex20_Array", "Ex20_Array\Ex20_Array.csproj", "{4605B7D4-2808-498E-8DB4-E34E21BED954}"
@@ -46,6 +47,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex22_Array_Quiz", "Ex22_Arr
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 =======
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex19_CallByVal_callByRef", "Ex19_CallByVal_callByRef\Ex19_CallByVal_callByRef.csproj", "{C20C1D0F-EEFD-4933-937D-DE4DD3E2358F}"
+>>>>>>> parent of 9913147 (좀 올라가..)
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,7 @@ Global
 		{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF53A24D-80BC-44E8-B6D3-9DEABDEC4D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D4C8F94-EFF4-4477-9FEC-7970AB40B9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -135,6 +140,20 @@ Global
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 =======
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
+=======
+		{86D79B5A-7C1A-4C71-9D57-A35C904FAACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D79B5A-7C1A-4C71-9D57-A35C904FAACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D79B5A-7C1A-4C71-9D57-A35C904FAACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D79B5A-7C1A-4C71-9D57-A35C904FAACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB72DFE-0412-4B36-8C6C-8F1A61F0DD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB72DFE-0412-4B36-8C6C-8F1A61F0DD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB72DFE-0412-4B36-8C6C-8F1A61F0DD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB72DFE-0412-4B36-8C6C-8F1A61F0DD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20C1D0F-EEFD-4933-937D-DE4DD3E2358F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20C1D0F-EEFD-4933-937D-DE4DD3E2358F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20C1D0F-EEFD-4933-937D-DE4DD3E2358F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20C1D0F-EEFD-4933-937D-DE4DD3E2358F}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> parent of 9913147 (좀 올라가..)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
