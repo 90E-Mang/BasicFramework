@@ -33,6 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex08_Statement2", "Ex08_Sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex20_Array", "Ex20_Array\Ex20_Array.csproj", "{4605B7D4-2808-498E-8DB4-E34E21BED954}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex21_Object_Array", "Ex21_Object_Array\Ex21_Object_Array.csproj", "{F604C885-21DD-43B8-9F47-9A458008E859}"
 EndProject
@@ -41,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex11_class_method", "Ex11_class_method\Ex11_class_method.csproj", "{4A05BA04-04E2-4E6A-B93D-E973DC8958D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex22_Array_Quiz", "Ex22_Array_Quiz\Ex22_Array_Quiz.csproj", "{B4737229-2E2C-4549-8FE4-2AC9FCCF5FBD}"
+=======
+>>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 =======
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 EndProject
@@ -111,6 +114,7 @@ Global
 		{4605B7D4-2808-498E-8DB4-E34E21BED954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4605B7D4-2808-498E-8DB4-E34E21BED954}.Release|Any CPU.Build.0 = Release|Any CPU
 <<<<<<< HEAD
+<<<<<<< HEAD
 		{F604C885-21DD-43B8-9F47-9A458008E859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F604C885-21DD-43B8-9F47-9A458008E859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F604C885-21DD-43B8-9F47-9A458008E859}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -127,6 +131,8 @@ Global
 		{B4737229-2E2C-4549-8FE4-2AC9FCCF5FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4737229-2E2C-4549-8FE4-2AC9FCCF5FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4737229-2E2C-4549-8FE4-2AC9FCCF5FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 =======
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 	EndGlobalSection

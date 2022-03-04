@@ -17,6 +17,7 @@ namespace Ex20_Array
             // 4. 자료구조의 기본
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             int[] arr = new int[5];                     // 방의 값은 default 값으로 초기하
             Console.WriteLine(arr[0]);
             int[] arr2 = new int[5] {10,20,30,40,50 };       // 원하는 값으로 초기화
@@ -58,6 +59,9 @@ namespace Ex20_Array
 
             string[] strarr = {"이맹기","임현기","백신맞음","잠온다" };
 
+=======
+            int[] arr = new int[5];
+>>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
 =======
             int[] arr = new int[5];
 >>>>>>> 404d96d2d01020af2f2ad180f6a6d25989d121c3
