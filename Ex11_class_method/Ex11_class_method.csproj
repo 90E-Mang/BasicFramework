@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11E7D89B-C65F-4755-B67B-2016BE057D13}</ProjectGuid>
+    <ProjectGuid>{4A05BA04-04E2-4E6A-B93D-E973DC8958D8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex02_Basic</RootNamespace>
-    <AssemblyName>Ex02_Basic</AssemblyName>
+    <RootNamespace>Ex11_class_method</RootNamespace>
+    <AssemblyName>Ex11_class_method</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ex03_EmpLib">
-      <HintPath>..\Ex03_EmpLib\bin\Debug\Ex03_EmpLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

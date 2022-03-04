@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CB72DFE-0412-4B36-8C6C-8F1A61F0DD1F}</ProjectGuid>
+    <ProjectGuid>{30A56A78-A141-4CB3-AD43-6DE220A71036}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex18_Const_Readonly</RootNamespace>
-    <AssemblyName>Ex18_Const_Readonly</AssemblyName>
+    <RootNamespace>Ex07_Statement</RootNamespace>
+    <AssemblyName>Ex07_Statement</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
